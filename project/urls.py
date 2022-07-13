@@ -19,11 +19,9 @@ from django.urls import path
 
 # HTTP REQUEST <- HTTP RESPONSE
 
-# HTTP REQUEST
 
-
-def my_view(request):
-    return HttpResponse('Uma Linda String')
+def my_view(request):  # HTTP REQUEST
+    return HttpResponse('Uma Linda String')  # HTTP RESPONSE
 
 
 urlpatterns = [
